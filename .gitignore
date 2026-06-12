@@ -1,0 +1,103 @@
+# GAJA Project .gitignore
+# Comprehensive ignores for Python, Rust, Node.js, LaTeX, general development
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# Rust (for projects like Grok Launcher)
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.env
+.env.local
+.env.*.local
+
+# LaTeX / TeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# Docker
+.dockerignore
+
+# Blockchain / Crypto related (if applicable)
+*.wallet
+*.key
+seed.phrase
+
+# General build artifacts
+build/
+dist/
+out/
+
+# OS specific
+# Windows
+*.exe
+*.dll
+*.pdb
+# macOS
+*.dSYM/
+# Linux
+*.so
+
+# Misc
+*.bak
+*.swp
+.DS_Store
