@@ -6,14 +6,15 @@
 
 ```mermaid
 graph TD
-    A[Agent Layer<br/>Self-improving AI swarms<br/>Emotional & adaptive agents<br/>Grok/Liaura inspired] -->|Orchestrates| B[Mesh Network Layer<br/>xMesh / NovaNet / QNET<br/>Yggdrasil + Docker<br/>Privacy (Tor/I2P)]
-    B -->|Coordinates via| C[Blockchain Coordination Layer<br/>XCoin / QCoin<br/>QNET runes & smart contracts<br/>Value + trust layer]
-    C -->|Secures & logs| D[Prototyping & Hardware Layer<br/>Rust/egui (Grok Launcher)<br/>Python agents<br/>Soilnova / Vista Nova style devices<br/>LaTeX whitepapers]
+    A["Agent Layer<br>Self-improving AI swarms<br>Emotional & adaptive agents<br>Grok/Liaura inspired"] -->|Orchestrates| B["Mesh Network Layer<br>xMesh / NovaNet / QNET<br>Yggdrasil + Docker<br>Privacy (Tor/I2P)"]
+    B -->|Coordinates via| C["Blockchain Coordination Layer<br>XCoin / QCoin<br>QNET runes & smart contracts<br>Value + trust layer"]
+    C -->|Secures & logs| D["Prototyping & Hardware Layer<br>Rust/egui (Grok Launcher)<br>Python agents<br>Soilnova / Vista Nova style devices<br>LaTeX whitepapers"]
     D -->|Feeds back to| A
-    style A fill:#e3f2fd
-    style B fill:#e8f5e9
-    style C fill:#fff3e0
-    style D fill:#f3e5f5
+
+    style A fill:#e3f2fd,stroke:#1976d2
+    style B fill:#e8f5e9,stroke:#388e3c
+    style C fill:#fff3e0,stroke:#f57c00
+    style D fill:#f3e5f5,stroke:#7b1fa2
 ```
 
 ## Layer Details
